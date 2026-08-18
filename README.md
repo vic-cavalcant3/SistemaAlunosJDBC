@@ -1,11 +1,12 @@
 # 🎓 SistemaAlunosJDBC – Cadastro de Alunos com JDBC
-Sistema simples em Java para gerenciar alunos usando JDBC e SQLite. Projeto de estudo focado em conexão com banco de dados relacional a partir do código Java.
+
+Sistema em Java para gerenciar alunos usando JDBC e SQLite. Projeto de estudo focado em conexão com banco de dados relacional a partir do código Java.
 
 ---
 
 ## 📚 Objetivo do Projeto
 
-Praticar o uso da API JDBC para conectar uma aplicação Java a um banco de dados SQLite, realizando operações de criação de tabela, inserção e consulta de registros.
+Praticar o uso da API JDBC para conectar uma aplicação Java a um banco de dados SQLite, realizando operações de CRUD completo (criação, leitura, atualização e exclusão de registros).
 
 ---
 
@@ -14,8 +15,10 @@ Praticar o uso da API JDBC para conectar uma aplicação Java a um banco de dado
 * Criação automática da tabela `Alunos` caso não exista
 * Cadastro de aluno (nome, email e idade) via menu interativo
 * Listagem de todos os alunos cadastrados
-
-> ⚠️ Ainda em desenvolvimento: funcionalidades de busca, atualização e exclusão de aluno (opções 3, 4 e 5 do menu) estão planejadas mas não implementadas.
+* Busca de aluno por nome
+* Atualização de email e idade de um aluno
+* Exclusão de aluno por nome
+* Limpeza completa do banco de dados
 
 ---
 
@@ -45,4 +48,4 @@ Projeto desenvolvido durante aula sobre JDBC no curso de Automação Industrial 
 
 ## 🚀 Status do Projeto
 
-🟡 Em desenvolvimento
+🟢 Concluído
