@@ -6,8 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     private  static  final String connectionString = "jdbc:sqlite:banco.db";
-    static void main() throws Exception{
-        //Criar a tabela de alunos, caso ela não exista
+        public static void main(String[] args) throws Exception{        //Criar a tabela de alunos, caso ela não exista
         criartabela();
 
         Scanner scanner = new Scanner(System.in);
@@ -132,7 +131,7 @@ public class Main {
                 var email = resultSet.getString("email");
                 var idade = resultSet.getInt("idade");
 
-                System.out.printf("Dados do Aluno: %s %s %s %s \n", id, nome, email, idade);
+                System.out.printf("Dados dos Alunos: %s %s %s %s \n", id, nome, email, idade);
             }
         } catch (SQLException e) {
             System.out.println("Erro ao consultar " + e.getMessage());
